@@ -1,0 +1,90 @@
+/* ---- Tweak these to change the look ---- */
+:root {
+  --bg: #fdfcf9;
+  --text: #1f1f1f;
+  --muted: #6b6b6b;
+  --accent: #c0392b;
+  --max-width: 40rem;
+  --font: Georgia, "Times New Roman", serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141414;
+    --text: #ececec;
+    --muted: #9a9a9a;
+    --accent: #ff7b6b;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { font-size: 18px; }
+
+body {
+  margin: 0;
+  padding: 2rem 1rem 4rem;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  line-height: 1.65;
+}
+
+.site-header,
+.content,
+.site-footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.site-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--text) 15%, transparent);
+}
+
+.site-name {
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.site-nav { display: flex; gap: 1.25rem; }
+
+.site-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  text-transform: lowercase;
+  letter-spacing: 0.02em;
+}
+
+.site-nav a:hover { color: var(--accent); }
+
+.site-nav a[aria-current="page"] {
+  color: var(--text);
+  border-bottom: 2px solid var(--accent);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0 0 1.5rem;
+}
+
+p { margin: 0 0 1.25rem; }
+
+a { color: var(--accent); }
+
+ul { padding-left: 1.25rem; }
+li { margin-bottom: 0.4rem; }
+
+.site-footer {
+  margin-top: 4rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
