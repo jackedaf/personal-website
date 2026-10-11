@@ -20,7 +20,7 @@ Just open `index.html` in a browser. That's it.
 1. On GitHub, open this repo → **Settings** → **Pages**.
 2. Under **Build and deployment**, set Source to **Deploy from a branch**,
    pick branch `main`, folder `/ (root)`. Save.
-3. After a minute, the site is live at `https://<your-github-username>.github.io/personal-website/`.
+3. After a minute, the site is live at `https://jackedaf.github.io/personal-website/`.
 
 ## Pointing your Namecheap domain at it
 
