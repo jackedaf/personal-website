@@ -1,15 +1,13 @@
 # Personal website
 
 A two-page static site: **about** (`index.html`) and **love** (`love.html`).
-No build step, no frameworks. Edit the HTML, push, done.
+No build step, no frameworks, no CSS. Edit the HTML, push, done.
 
 ## Editing your copy
 
-Open `index.html` and `love.html`. Look for the block that says
-`YOUR COPY GOES HERE` and replace the paragraphs between the markers.
-Each paragraph is a `<p> ... </p>`. Also swap "Your Name" and the email.
+Open `index.html` and `love.html`.
+Each paragraph is a `<p> ... </p>`.
 
-Colors and fonts live at the top of `style.css`.
 
 ## Preview locally
 
