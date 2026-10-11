@@ -26,7 +26,7 @@ Just open `index.html` in a browser. That's it.
 
 ### On GitHub
 1. Still in **Settings → Pages**, under **Custom domain**, enter your domain
-   (e.g. `yourname.com`) and save. GitHub will create a `CNAME` file in the repo.
+   (`aashganda.com`) and save. The `CNAME` file in this repo already holds it.
 2. Tick **Enforce HTTPS** once it becomes available (can take up to an hour after DNS is set).
 
 ### On Namecheap
@@ -42,9 +42,9 @@ Just open `index.html` in a browser. That's it.
    | A     | @    | 185.199.109.153                         | Automatic |
    | A     | @    | 185.199.110.153                         | Automatic |
    | A     | @    | 185.199.111.153                         | Automatic |
-   | CNAME | www  | `<your-github-username>.github.io.`     | Automatic |
+   | CNAME | www  | `jackedaf.github.io.`     | Automatic |
 
 5. Wait. DNS changes usually take a few minutes but can take up to a day.
    Check progress at https://dnschecker.org by entering your domain.
 
-Once it resolves, both `yourname.com` and `www.yourname.com` will show the site.
+Once it resolves, both `aashganda.com` and `www.aashganda.com` will show the site.
