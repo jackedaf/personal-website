@@ -98,3 +98,5 @@ li { margin-bottom: 0.4rem; }
 }
 .links a { text-decoration: none; }
 .links a:hover { text-decoration: underline; }
+
+strong { font-weight: bold; }
